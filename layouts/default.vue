@@ -1,6 +1,6 @@
 <template>
   <div>
-    <hi>Regu Piket</hi>
+    <h1>Regu Piket</h1>
     <hr>
     <slot />
   </div>

@@ -17,7 +17,7 @@ async function signin() {
     email: email.value,
     password: password.value,
   });
-  console.log(data);
-  // navigateTo("/");
+  // console.log(data);
+  navigateTo("/admin");
 }
 </script>

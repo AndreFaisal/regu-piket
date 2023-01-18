@@ -1,12 +1,28 @@
 <template>
-  <div>
-    <h1>p</h1>
-    <button @click="signout">keluar</button>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-4">
+        <NuxtLink to="/login">
+          <div class="card">
+            <div class="card-body">
+              Login
+            </div>
+          </div>
+        </NuxtLink>
+      </div>
+
+
+      <div class="col-md-4">
+        <NuxtLink to="/jadwal">
+          <div class="card">
+            <div class="card-body">
+              Jadwal Piket
+            </div>
+          </div>
+        </NuxtLink>
+      </div>
+
+    </div>
   </div>
 </template>
-<script setup>
-const supabase = useSupabaseAuthClient;
-function signout() {
-  const { error } = supabase.auth.signOut();
-}
-</script>
