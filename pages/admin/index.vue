@@ -19,11 +19,11 @@ const keterangan = ref();
 const anggota = ref([])
 
 async function simpan() {
-  await supabase.from("jadwal piket").insert({
+  await supabase.from("kehadiran").insert({
     keterangan: keterangan.value,
     id_anggota: nama.value,
   });
-  navigateTo("/");
+  navigateTo("/admin/data");
 }
 
 

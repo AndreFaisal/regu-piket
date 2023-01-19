@@ -1,7 +1,7 @@
 <template>
   <div>
     <form @submit.prevent="signin">
-      <input type="email" v-model="email" /><br />
+      <input type="email" v-model="email" class="form-control" /><br />
       <input type="password" v-model="password" />
       <button type="submit">login</button>
     </form>

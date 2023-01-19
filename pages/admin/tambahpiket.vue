@@ -11,16 +11,16 @@
 </template>
 
 <script setup>
-import { dataToEsm } from "@rollup/pluginutils";
-const supabase = useSupabaseClient;
+
+const supabase = useSupabaseClient()
 const nama = ref();
-const hari = ref();
+const haria = ref();
 
 async function simpan() {
-  await supabase.from("jadwal piket").insert({
+  await supabase.from("kehadiran").insert({
     nama: nama.value,
     hari: hari.value,
   });
-  navigateTo("/");
+  navigateTo("/admin/data");
 }
 </script>
