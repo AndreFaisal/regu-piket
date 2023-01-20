@@ -4,6 +4,7 @@
       <input type="email" v-model="email" class="form-control" /><br />
       <input type="password" v-model="password" />
       <button type="submit">login</button>
+      <NuxtLink to="/">kembali</NuxtLink>
     </form>
   </div>
 </template>

@@ -6,7 +6,7 @@
         <NuxtLink to="/login">
           <div class="card">
             <div class="card-body">
-              Login
+              Login Admin
             </div>
           </div>
         </NuxtLink>

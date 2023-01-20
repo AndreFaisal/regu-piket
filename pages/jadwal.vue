@@ -1,5 +1,6 @@
-<template>
-  <div class="container">
+<template class="bg-dark">
+  <div class="bg-dark" style="height: screen;">
+  <div class="container ">
     <div class="row">
       <div class="col-md-12">
         <div class="row">
@@ -55,29 +56,29 @@
               <div class="card-header">KAMIS</div>
               <div class="card-body">
                 <ul>
-                  <li>satria</li>
-                  <li>ridho</li>
-                  <li>dede empur</li>
-                  <li>ineu</li>
-                  <li>adam</li>
-                  <li>resa</li>
-                  <li>naufal</li>
+                  <li>deni</li>
+                  <li>aidil</li>
+                  <li>rahma</li>
+                  <li>rika</li>
+                  <li>hilal</li>
+                  <li>aina</li>
+                  <li>dea</li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="col-md-3">
-            <div class="card">
+            <div class="card mt-5">
               <div class="card-header">JUM'AT</div>
               <div class="card-body">
                 <ul>
-                  <li>satria</li>
-                  <li>ridho</li>
-                  <li>dede empur</li>
-                  <li>ineu</li>
-                  <li>adam</li>
-                  <li>resa</li>
-                  <li>naufal</li>
+                  <li>wendi</li>
+                  <li>salwa</li>
+                  <li>yenti</li>
+                  <li>annisah</li>
+                  <li>azkia</li>
+                  <li>didi</li>
+                  <li>fikri</li>
                 </ul>
               </div>
             </div>
@@ -85,7 +86,9 @@
         </div>
       </div>
     </div>
+  </div>
 
+     <NuxtLink to="/">kembali</NuxtLink>
 
 
   </div>

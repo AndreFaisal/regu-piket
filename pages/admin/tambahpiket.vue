@@ -14,7 +14,7 @@
 
 const supabase = useSupabaseClient()
 const nama = ref();
-const haria = ref();
+const hari = ref();
 
 async function simpan() {
   await supabase.from("kehadiran").insert({
