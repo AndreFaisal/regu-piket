@@ -1,20 +1,11 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
-        <NuxtLink to="/login">
-          <div class="card">
-            <div class="card-body">Login Admin</div>
-          </div>
-        </NuxtLink>
-      </div>
-
-      <div class="col-md-4">
-        <NuxtLink to="/jadwal">
-          <div class="card">
-            <div class="card-body">Jadwal Piket</div>
-          </div>
-        </NuxtLink>
+      <div class="col-md-6 m-auto">
+        <div class="card p-3">
+          <NuxtLink to="/login" class="btn btn-primary text-center text-light my-3"> Login </NuxtLink>
+          <NuxtLink to="/jadwal" class="btn btn-info text-center text-light my-3"> Jadwal Piket </NuxtLink>
+        </div>
       </div>
     </div>
   </div>
