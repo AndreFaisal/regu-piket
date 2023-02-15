@@ -11,8 +11,7 @@
 </template>
 
 <script setup>
-
-const supabase = useSupabaseClient()
+const supabase = useSupabaseClient();
 const nama = ref();
 const hari = ref();
 

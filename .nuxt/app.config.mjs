@@ -1,5 +1,5 @@
 
-import { defuFn } from 'C:/Users/user/Documents/regu-piket/node_modules/defu/dist/defu.mjs'
+import { defuFn } from 'C:/Users/user/regu-piket/node_modules/defu/dist/defu.mjs'
 
 const inlineConfig = {}
 
