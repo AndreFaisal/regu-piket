@@ -15,6 +15,7 @@
         <NuxtLink to="/" class="btn btn-danger">kembali</NuxtLink>
       </form>
     </div>
+
   </div>
 </template>
 
