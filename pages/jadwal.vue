@@ -1,84 +1,84 @@
 <template class="bg-dark">
-  <div class="bg-dark" style="height: screen">
+  <div class="">
     <div class="container">
       <div class="row">
         <div class="col-md-50">
           <div class="row">
-            <div class="col-md-2">
-              <div class="card">
-                <div class="card-header">SENIN - Monday</div>
+            <div class="col-md-3 col-12">
+              <div class="card my-3">
+                <div class="card-header bg-dark text-light fw-bold text-center">SENIN</div>
                 <div class="card-body">
-                  <ul>
-                    <li>Satria</li>
-                    <li>Ridho</li>
-                    <li>Naufal</li>
-                    <li>Ineu</li>
-                    <li>Adam</li>
-                    <li>Resa</li>
-                    <li>Dede Empur</li>
+                  <ul class="list-group">
+                    <li class="list-group-item">Satria</li>
+                    <li class="list-group-item">Ridho</li>
+                    <li class="list-group-item">Naufal</li>
+                    <li class="list-group-item">Ineu</li>
+                    <li class="list-group-item">Adam</li>
+                    <li class="list-group-item">Resa</li>
+                    <li class="list-group-item">Dede Empur</li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div class="col-md-2">
-              <div class="card">
-                <div class="card-header">SELASA - Tuesday</div>
+            <div class="col-md-3 C0L-12">
+              <div class="card my-3">
+                <div class="card-header bg-dark text-light fw-bold text-center">SELASA</div>
                 <div class="card-body">
-                  <ul>
-                    <li>Dina</li>
-                    <li>Agni</li>
-                    <li>Elsa</li>
-                    <li>Renla</li>
-                    <li>Delia</li>
-                    <li>Ai ranti</li>
+                  <ul class="list-group">
+                    <li class="list-group-item">Dina</li>
+                    <li class="list-group-item">Agni</li>
+                    <li class="list-group-item">Elsa</li>
+                    <li class="list-group-item">Renla</li>
+                    <li class="list-group-item">Delia</li>
+                    <li class="list-group-item">Ai ranti</li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
-              <div class="card">
-                <div class="card-header">RABU - Wednesday</div>
+            <div class="col-md-3 COL-12">
+              <div class="card my-3">
+                <div class="card-header bg-dark text-light fw-bold text-center">RABU</div>
                 <div class="card-body">
-                  <ul>
-                    <li>Tri sendi</li>
-                    <li>Mutia</li>
-                    <li>Andre</li>
-                    <li>Melda</li>
-                    <li>Intan</li>
-                    <li>Pramudita</li>
-                    <li>Nayla</li>
+                  <ul class="list-group">
+                    <li class="list-group-item">Tri sendi</li>
+                    <li class="list-group-item">Mutia</li>
+                    <li class="list-group-item">Andre</li>
+                    <li class="list-group-item">Melda</li>
+                    <li class="list-group-item">Intan</li>
+                    <li class="list-group-item">Pramudita</li>
+                    <li class="list-group-item">Nayla</li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div class="col-md-2">
-              <div class="card">
-                <div class="card-header">KAMIS - Thursday</div>
+            <div class="col-md-3 COL-12">
+              <div class="card my-3">
+                <div class="card-header bg-dark text-light fw-bold text-center">KAMIS</div>
                 <div class="card-body">
-                  <ul>
-                    <li>Deni</li>
-                    <li>Aidil</li>
-                    <li>Rahma</li>
-                    <li>Rika</li>
-                    <li>Hilal</li>
-                    <li>Aina</li>
-                    <li>Dea</li>
+                  <ul class="list-group">
+                    <li class="list-group-item">Deni</li>
+                    <li class="list-group-item">Aidil</li>
+                    <li class="list-group-item">Rahma</li>
+                    <li class="list-group-item">Rika</li>
+                    <li class="list-group-item">Hilal</li>
+                    <li class="list-group-item">Aina</li>
+                    <li class="list-group-item">Dea</li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
-              <div class="card">
-                <div class="card-header">JUM'AT - Friday</div>
+            <div class="col-md-3 COL-12">
+              <div class="card my-3">
+                <div class="card-header bg-dark text-light fw-bold text-center">JUM'AT</div>
                 <div class="card-body">
-                  <ul>
-                    <li>Wendi</li>
-                    <li>Salwa</li>
-                    <li>Yenti</li>
-                    <li>Annisah</li>
-                    <li>Azkia</li>
-                    <li>Didi</li>
-                    <li>Fikri</li>
+                  <ul class="list-group">
+                    <li class="list-group-item">Wendi</li>
+                    <li class="list-group-item">Salwa</li>
+                    <li class="list-group-item">Yenti</li>
+                    <li class="list-group-item">Annisah</li>
+                    <li class="list-group-item">Azkia</li>
+                    <li class="list-group-item">Didi</li>
+                    <li class="list-group-item">Fikri</li>
                   </ul>
                 </div>
               </div>
@@ -88,7 +88,7 @@
       </div>
     </div>
 
-    <NuxtLink to="/">kembali</NuxtLink>
+    <NuxtLink to="/" class="btn btn-secondary mt-3">kembali</NuxtLink>
   </div>
 </template>
 
