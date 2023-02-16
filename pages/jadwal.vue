@@ -31,6 +31,7 @@
                     <li class="list-group-item">Renla</li>
                     <li class="list-group-item">Delia</li>
                     <li class="list-group-item">Ai ranti</li>
+                    <li class="list-group-item">Salwa</li>
                   </ul>
                 </div>
               </div>
@@ -73,7 +74,6 @@
                 <div class="card-body">
                   <ul class="list-group">
                     <li class="list-group-item">Wendi</li>
-                    <li class="list-group-item">Salwa</li>
                     <li class="list-group-item">Yenti</li>
                     <li class="list-group-item">Annisah</li>
                     <li class="list-group-item">Azkia</li>
