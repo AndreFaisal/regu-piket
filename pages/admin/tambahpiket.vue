@@ -11,6 +11,9 @@
 </template>
 
 <script setup>
+definePageMeta({
+  middleware: "auth",
+});
 const supabase = useSupabaseClient();
 const nama = ref();
 const hari = ref();
